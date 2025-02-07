@@ -3,10 +3,12 @@ layout: page
 title: Cluster-consensus control for swarms of robotic vehicles
 description: Open research internship position
 img: assets/img/M2stage-cluster.png
-importance: 1
+importance: 2
 category: Master thesis
 giscus_comments: true
 ---
+
+**Short abstract:** The goal of this Master Thesis is to exploit recent advancements on the topic of multi-robot control for the design and analysis of distributed control laws to achieve autonomous formation of clusters in a swarm of mobile robots.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,7 +23,7 @@ giscus_comments: true
 
 **Hired by** the [Rainbow team](https://team.inria.fr/rainbow/) IRISA/Inria Rennes, France
 
-**Advised by:** [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/claudio-pacchierotti/), [Esteban Restrepo](https://erestrep.github.io/), and Antonio Marino
+**Advised by:** [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/prg/), [Esteban Restrepo](https://erestrep.github.io/), and Antonio Marino
 
 **Contact:** [prg@irisa.fr](mailto:prg@irisa.fr) – [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [antonio.marino@irisa.fr](mailto:antonio.marino@irisa.fr)
 
@@ -30,8 +32,6 @@ giscus_comments: true
 <hr>
 
 <br>
-
-**Short abstract:** The goal of this Master Thesis is to exploit recent advancements on the topic of multi-robot control for the design and analysis of distributed control laws to achieve autonomous formation of clusters in a swarm of mobile robots.
 
 **Description:** The deployment of swarms of robotic vehicles has been shown to be effective for a wide range of applications based on cooperative tasks such as reconnaissance, surveillance, foraging or search and rescue. Most of the time, in such collaborative missions, the field of interest is relatively large with respect to the size of the multi-robot system. Therefore, the swarm must be divided into smaller groups (clusters) to move towards different areas and conduct different tasks simultaneously.
 

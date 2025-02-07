@@ -21,7 +21,7 @@ giscus_comments: true
 
 **Hired by** the [Rainbow team](https://team.inria.fr/rainbow/) IRISA/Inria Rennes, France
 
-**Advised by:** Paolo Robuffo Giordano and Esteban Restrepo
+**Advised by:** [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/prg/) and [Esteban Restrepo](erestrep.github.io)
 
 **Contact:** [prg@irisa.fr](mailto:prg@irisa.fr) – [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr)
 
