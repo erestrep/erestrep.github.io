@@ -27,7 +27,7 @@ giscus_comments: true
 
 **Contact:** [prg@irisa.fr](mailto:prg@irisa.fr) – [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr)
 
-**How to apply:**  Interested candidates are requested to apply via [this form](). The position will remain open until a satisfactory candidate is found.
+**How to apply:**  Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-int-coop-nonprenmap/). The position will remain open until a satisfactory candidate is found.
 
 <hr>
 
@@ -86,7 +86,7 @@ Financial support offered to the student: gratification de 3,75 € / h
 <h3 class="subsection-title">How to apply</h3>
 <br>
 
-Interested candidates are requested to apply via [this form]().
+Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-int-coop-nonprenmap/).
 
 **Supervisor(s):** Dr. Esteban Restrepo and Dr. Paolo Robuffo Giordano
 
