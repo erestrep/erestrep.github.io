@@ -1,16 +1,16 @@
 ---
 layout: page
-title: submenus
+title: 
 nav: true
-nav_order: 8
-dropdown: true
+nav_order: 9
+dropdown: false
 children:
-  - title: publications
+  - title: Postdoc
     permalink: /publications/
   - title: divider
-  - title: projects
+  - title: PhD
     permalink: /projects/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Master thesis
+    permalink: /about/
 ---
