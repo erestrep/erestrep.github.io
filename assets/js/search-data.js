@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-open-positions",
           title: "Open positions",
-          description: "",
+          description: "Open research positions in the Rainbow team",
           section: "Navigation",
           handler: () => {
             window.location.href = "/positions/";
@@ -58,22 +58,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/_pages/dropdown.html";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+        },{id: "news-new-phd-and-master-thesis-positions-available-rocket",
+          title: 'New PhD and Master thesis positions available! :rocket:',
           description: "",
           section: "News",},{id: "positions-cluster-consensus-control-for-swarms-of-robotic-vehicles",
           title: 'Cluster-consensus control for swarms of robotic vehicles',
           description: "Open research internship position",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-cluster-consensus/";
+            },},{id: "positions-cooperative-multi-robot-non-prehensile-manipulation",
+          title: 'Cooperative multi-robot non-prehensile manipulation',
+          description: "Open research internship position",
+          section: "Positions",handler: () => {
+              window.location.href = "/positions/m2-pushing/";
             },},{id: "positions-coordination-of-heterogeneous-multi-robot-systems-for-multi-objective-missions",
           title: 'Coordination of Heterogeneous Multi-robot systems for Multi-objective Missions',
           description: "Open PhD position",
