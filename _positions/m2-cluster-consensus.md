@@ -3,7 +3,7 @@ layout: page
 title: Cluster-consensus control for swarms of robotic vehicles
 description: Open research internship position
 img: assets/img/M2stage-cluster.png
-importance: 2
+importance: 3
 category: Master thesis
 giscus_comments: true
 ---
@@ -76,7 +76,7 @@ giscus_comments: true
 
 The work will be carried in English at the Centre Inria de l’Université de Rennes research center in Rennes, France.
 
-Financial support offered to the student: gratification de 3,75 € / h
+Financial support offered to the student: gratification de 4,35 € / h
 
 <br>
 <h3 class="subsection-title">How to apply</h3>

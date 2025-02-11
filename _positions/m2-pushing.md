@@ -3,7 +3,7 @@ layout: page
 title: Cooperative multi-robot non-prehensile manipulation
 description: Open research internship position
 img: assets/img/pushing.png
-importance: 1
+importance: 2
 category: Master thesis
 giscus_comments: true
 ---
@@ -80,7 +80,7 @@ This thesis will provide exciting opportunities to explore cutting-edge control 
 
 The work will be carried in English at the Centre Inria de l’Université de Rennes research center in Rennes, France.
 
-Financial support offered to the student: gratification de 3,75 € / h
+Financial support offered to the student: gratification de 4,35 € / h
 
 <br>
 <h3 class="subsection-title">How to apply</h3>
