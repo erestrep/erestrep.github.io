@@ -71,6 +71,11 @@ ninja.data = [{
           description: "Open research internship position",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-pushing/";
+            },},{id: "positions-",
+          title: '',
+          description: "",
+          section: "Positions",handler: () => {
+              window.location.href = "/positions/m2-sensitivity/";
             },},{id: "positions-coordination-of-heterogeneous-multi-robot-systems-for-multi-objective-missions",
           title: 'Coordination of Heterogeneous Multi-robot systems for Multi-objective Missions',
           description: "Open PhD position",
