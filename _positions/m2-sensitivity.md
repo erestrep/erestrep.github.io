@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robust Multi-Robot Coordination: Sensitivity-Driven Interaction Optimization
+title: Robust Multi-Robot Coordination -- Sensitivity-Driven Interaction Optimization
 description: Open research internship position
 img: assets/img/drones_exp.png
 importance: 1
@@ -27,7 +27,7 @@ giscus_comments: true
 
 **Contact:** [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [tommaso.belvedere@inria.fr](mailto:tommaso.belvedere@inria.fr) – [prg@irisa.fr](mailto:prg@irisa.fr)
 
-**How to apply:**  Interested candidates are requested to apply via [this form](). The position will remain open until a satisfactory candidate is found.
+**How to apply:**  Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-rob-multi-rob-sens/). The position will remain open until a satisfactory candidate is found.
 
 <hr>
 
@@ -44,7 +44,7 @@ By integrating **closed-loop sensitivity theory** with dynamic interaction model
 <h3 class="subsection-title">Envisaged activities</h3>
 <br>
 
-1.     1. Literature review of the related works and familiarize with the experimental setup in the team.
+1. Literature review of the related works and familiarize with the experimental setup in the team.
 
 2. Take over the existing works and work on the optimization of interactions in a multi-robot system subject to sensing uncertainties.
 
@@ -60,11 +60,11 @@ By integrating **closed-loop sensitivity theory** with dynamic interaction model
 
 * Good knowledge in control theory and robot modeling
 
-* Good experience using Matlab/Simulink
+* Good experience using Python and Matlab/Simulink
 
 * Basic knowledge of control and analysis of multi-agent systems is appreciated
 
-* Previous experience with Python/C++ and ROS2 is appreciated
+* Previous experience with C++ and ROS2 is appreciated
 
 * Scientific curiosity
 
@@ -83,7 +83,7 @@ Financial support offered to the student: gratification de 4,35 € / h
 <h3 class="subsection-title">How to apply</h3>
 <br>
 
-Interested candidates are requested to apply via [this form]().
+Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-rob-multi-rob-sens/).
 
 **Supervisor(s):** Dr. Esteban Restrepo, Dr. Tommaso Belvedere, and Dr. Paolo Robuffo Giordano
 
@@ -93,10 +93,10 @@ Interested candidates are requested to apply via [this form]().
 
 1. Robuffo Giordano, P., Franchi, A., Secchi, C., & Bülthoff, H. H. (2013). A passivity-based decentralized strategy for generalized connectivity maintenance. The International Journal of Robotics Research, 32(3), 299-323​.
 
-1. Afifi, A., Belvedere, T., Pupa, A., Giordano, P. R., & Franchi, A. (2024). Safe and robust planning for uncertain robots: A closed-loop state sensitivity approach. IEEE Robotics and automation letters.
+2. Afifi, A., Belvedere, T., Pupa, A., Giordano, P. R., & Franchi, A. (2024). Safe and robust planning for uncertain robots: A closed-loop state sensitivity approach. IEEE Robotics and automation letters.
 
-1. P. Robuffo Giordano, Q. Delamare, A. Franchi. Trajectory Generation for Minimum Closed-Loop State Sensitivity. In IEEE Int. Conf. on Robotics and Automation, ICRA’18, Pages 286-293, Brisbane, Australia, May 2018
+3. P. Robuffo Giordano, Q. Delamare, A. Franchi. Trajectory Generation for Minimum Closed-Loop State Sensitivity. In IEEE Int. Conf. on Robotics and Automation, ICRA’18, Pages 286-293, Brisbane, Australia, May 2018
 
-1. A. Srour, S. Marcellini, T. Belvedere, M. Cognetti, A. Franchi, P. Robuffo Giordano. Experimental Validation of Sensitivity-Aware Trajectory Planning for a Quadrotor UAV Under Parametric Uncertainty. In Int. Conference on Unmanned Aircraft Systems, ICUAS 2024, Pages 572-578, Chania, Crete, Greece, June 2024
+4. A. Srour, S. Marcellini, T. Belvedere, M. Cognetti, A. Franchi, P. Robuffo Giordano. Experimental Validation of Sensitivity-Aware Trajectory Planning for a Quadrotor UAV Under Parametric Uncertainty. In Int. Conference on Unmanned Aircraft Systems, ICUAS 2024, Pages 572-578, Chania, Crete, Greece, June 2024
 
-1. S. Wasiela, P. Robuffo Giordano, J. Cortes, T. Simeon. A Sensitivity-Aware Motion Planner (SAMP) to Generate Intrinsically-Robust Trajectories. In IEEE Int. Conf. on Robotics and Automation, ICRA'23, Pages 12707-12713, London, UK, May 2023
+5. S. Wasiela, P. Robuffo Giordano, J. Cortes, T. Simeon. A Sensitivity-Aware Motion Planner (SAMP) to Generate Intrinsically-Robust Trajectories. In IEEE Int. Conf. on Robotics and Automation, ICRA'23, Pages 12707-12713, London, UK, May 2023
