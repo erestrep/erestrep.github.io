@@ -8,6 +8,14 @@ nav_order: 4
 ---
 
 <br>
+<h3 class="talk-title">2025</h3>
+<hr>
+
+* **Towards Resilient and Autonomous Human-Multi-Robot Collaboration**\\
+    École normale supérieure de Rennes, Rennes, France\\
+    February 12th, 2025
+
+<br>
 <h3 class="talk-title">2024</h3>
 <hr>
 
