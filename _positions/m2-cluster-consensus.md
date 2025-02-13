@@ -27,7 +27,7 @@ giscus_comments: true
 
 **Contact:** [prg@irisa.fr](mailto:prg@irisa.fr) – [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [antonio.marino@irisa.fr](mailto:antonio.marino@irisa.fr)
 
-**How to apply:**  Interested candidates are requested to apply via [this form](https://forms.gle/nqmRwCzMqTVN41C1A). The position will remain open until a satisfactory candidate is found.
+**How to apply:**  Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-int-clus-cons/). The position will remain open until a satisfactory candidate is found.
 
 <hr>
 
@@ -37,7 +37,7 @@ giscus_comments: true
 
 **Motivations:** Most of the current works addressing the problem of clustering for multi-agent systems are concerned with generic unconstrained agents, thus neglecting the constraints and specificity of networks of mobile robots in terms of limited sensing capabilities. Moreover, they only study the conditions for convergence of the agents to small groups, i.e. cluster consensus, rather than the autonomous formation of clusters. There are few works addressing the autonomous achievement of clusters in a network of mobile robots based on distributed and local interactions among the robots, none of which take also into account the sensing constraints inherent to these types of systems.
 
-**General Objectives:** The goal of this Master Thesis is to design and validate theoretically (using Lyapunov methods, graph theory, etc.) novel control laws for the autonomous achievement of cluster consensus of a swarm of robotic vehicles subject to sensing constraints (limited range, limited field of view) based on local and distributed interaction laws among the robots. The work done during the the internship will be validated in simulation and experimentally using a fleet of Crazyflie drones.
+**General Objectives:** The goal of this Master Thesis is to design and validate theoretically (using Lyapunov methods, graph theory, etc.) novel control laws for the autonomous achievement of cluster consensus of a swarm of robotic vehicles subject to sensing constraints (limited range, limited field of view) based on the general connectivity framework in [1]. The work done during the the internship will be validated in simulation and experimentally using a fleet of Crazyflie drones.
 
 <br>
 <h3 class="subsection-title">Envisaged activities</h3>
@@ -82,13 +82,15 @@ Financial support offered to the student: gratification de 4,35 € / h
 <h3 class="subsection-title">How to apply</h3>
 <br>
 
-Interested candidates are requested to apply via [this form](https://forms.gle/nqmRwCzMqTVN41C1A).
+Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-int-clus-cons/).
 
 **Supervisor(s):** Dr. Esteban Restrepo, Dr. Paolo Robuffo Giordano, and Antonio Marino
 
 <br>
 <h3 class="subsection-title">References</h3>
 <br>
+
+1. Robuffo Giordano, P., Franchi, A., Secchi, C., & Bülthoff, H. H. (2013). A passivity-based decentralized strategy for generalized connectivity maintenance. The International Journal of Robotics Research, 32(3), 299-323.
 
 1. Xia, W., & Cao, M. (2011). Clustering in diffusively coupled networks. Automatica, 47(11), 2395-2405.
 
