@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cooperative multi-robot non-prehensile manipulation
-description: Open research internship position
+description: Open research internship position (stage M2)
 img: assets/img/pushing.png
 importance: 2
 category: Master thesis

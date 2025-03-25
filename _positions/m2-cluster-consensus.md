@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cluster-consensus control for swarms of robotic vehicles
-description: Open research internship position
+description: Open research internship position (stage M2)
 img: assets/img/M2stage-cluster.png
 importance: 3
 category: Master thesis
