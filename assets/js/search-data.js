@@ -63,17 +63,17 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "positions-cluster-consensus-control-for-swarms-of-robotic-vehicles",
           title: 'Cluster-consensus control for swarms of robotic vehicles',
-          description: "Open research internship position",
+          description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-cluster-consensus/";
             },},{id: "positions-cooperative-multi-robot-non-prehensile-manipulation",
           title: 'Cooperative multi-robot non-prehensile manipulation',
-          description: "Open research internship position",
+          description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-pushing/";
             },},{id: "positions-robust-multi-robot-coordination-sensitivity-driven-interaction-optimization",
           title: 'Robust Multi-Robot Coordination -- Sensitivity-Driven Interaction Optimization',
-          description: "Open research internship position",
+          description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-sensitivity/";
             },},{id: "positions-coordination-of-heterogeneous-multi-robot-systems-for-multi-objective-missions",
