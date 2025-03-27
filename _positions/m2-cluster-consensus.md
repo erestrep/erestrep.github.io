@@ -74,6 +74,8 @@ giscus_comments: true
 <h3 class="subsection-title">Conditions</h3>
 <br>
 
+Expected duration of the internship: **5-7 months**
+
 The work will be carried in English at the Centre Inria de l’Université de Rennes research center in Rennes, France.
 
 Financial support offered to the student: gratification de 4,35 € / h
