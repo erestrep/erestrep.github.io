@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cluster-consensus control for swarms of robotic vehicles
+title: Cluster-consensus control for heterogeneous teams of robotic vehicles
 description: Open research internship position (stage M2)
 img: assets/img/phd_cluster.png
 importance: 3
@@ -12,11 +12,11 @@ giscus_comments: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/M2stage-cluster.png" title="cluster image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/phd_cluster.png" title="cluster image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Previous experiment with the fleet of Crazyflies (left) and example of multi-robot clustering [Gandhe, M., Otte, M. (2023). Decentralized Robot Swarm Clustering: Adding Resilience to Malicious Masquerade Attacks. In: LaValle, S.M., O’Kane, J.M., Otte, M., Sadigh, D., Tokekar, P. (eds) Algorithmic Foundations of Robotics XV. WAFR 2022. Springer Proceedings in Advanced Robotics, vol 25. Springer] (right)
+    Example of a multi-ressource multi-location task allocation experimental validation with a team of Crazyflies performed in the Rainbow team.
 </div>
 
 <hr>
