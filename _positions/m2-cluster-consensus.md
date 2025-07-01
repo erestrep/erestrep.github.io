@@ -2,13 +2,13 @@
 layout: page
 title: Cluster-consensus control for swarms of robotic vehicles
 description: Open research internship position (stage M2)
-img: assets/img/M2stage-cluster.png
+img: assets/img/phd_cluster.png
 importance: 3
 category: Master thesis
 giscus_comments: true
 ---
 
-**Short abstract:** The goal of this Master Thesis is to exploit recent advancements on the topic of multi-robot control for the design and analysis of distributed control laws to achieve autonomous formation of clusters in a swarm of mobile robots.
+**Short abstract:** The goal of this Master Thesis is to setup an experimental testbed for a heterogeneous multi-robot system and to design and analyse distributed control laws to achieve autonomous formation of clusters in a group of heterogeneous mobile robots.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,9 +23,9 @@ giscus_comments: true
 
 **Hired by** the [Rainbow team](https://team.inria.fr/rainbow/) IRISA/Inria Rennes, France
 
-**Advised by:** [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/prg/), [Esteban Restrepo](https://erestrep.github.io/), and Antonio Marino
+**Advised by:** [Esteban Restrepo](https://erestrep.github.io/), [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/prg/), and Antonio Marino
 
-**Contact:** [prg@irisa.fr](mailto:prg@irisa.fr) – [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [antonio.marino@irisa.fr](mailto:antonio.marino@irisa.fr)
+**Contact:** [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [prg@irisa.fr](mailto:prg@irisa.fr) – [antonio.marino@irisa.fr](mailto:antonio.marino@irisa.fr)
 
 **How to apply:**  Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-int-clus-cons/). The position will remain open until a satisfactory candidate is found.
 
@@ -33,23 +33,25 @@ giscus_comments: true
 
 <br>
 
-**Description:** The deployment of swarms of robotic vehicles has been shown to be effective for a wide range of applications based on cooperative tasks such as reconnaissance, surveillance, foraging or search and rescue. Most of the time, in such collaborative missions, the field of interest is relatively large with respect to the size of the multi-robot system. Therefore, the swarm must be divided into smaller groups (clusters) to move towards different areas and conduct different tasks simultaneously.
+**Description:** The deployment of teams of robotic vehicles has been shown to be effective for a wide range of applications based on cooperative tasks such as reconnaissance, surveillance, foraging or search and rescue. Most of the time, in such collaborative missions, the field of interest is relatively large with respect to the size of the multi-robot system. Therefore, the heterogeneous team must be divided into smaller groups (clusters), based on their heterogeneous capabilities, in order to conduct different tasks simultaneously.
 
-**Motivations:** Most of the current works addressing the problem of clustering for multi-agent systems are concerned with generic unconstrained agents, thus neglecting the constraints and specificity of networks of mobile robots in terms of limited sensing capabilities. Moreover, they only study the conditions for convergence of the agents to small groups, i.e. cluster consensus, rather than the autonomous formation of clusters. There are few works addressing the autonomous achievement of clusters in a network of mobile robots based on distributed and local interactions among the robots, none of which take also into account the sensing constraints inherent to these types of systems.
+**Motivations:** Most of the current works addressing the problem of clustering for multi-agent systems are concerned with generic unconstrained agents, thus neglecting the constraints and specificity of networks of mobile robots in terms of limited sensing capabilities. Moreover, they only study the conditions for convergence of the agents to small groups, i.e. cluster consensus, rather than the autonomous formation of clusters. There are few works addressing the autonomous achievement of clusters in a network of heterogeneous mobile robots based on distributed and local interactions among the robots, none of which take also into account the sensing constraints inherent to these types of systems.
 
-**General Objectives:** The goal of this Master Thesis is to design and validate theoretically (using Lyapunov methods, graph theory, etc.) novel control laws for the autonomous achievement of cluster consensus of a swarm of robotic vehicles subject to sensing constraints (limited range, limited field of view) based on the general connectivity framework in [1]. The work done during the the internship will be validated in simulation and experimentally using a fleet of Crazyflie drones.
+**General Objectives:** The goal of this Master Thesis is twofold: 1. Design and validate theoretically (using Lyapunov methods, graph theory, etc.) novel distributed control laws for the autonomous achievement of cluster consensus of a team of heterogeneous robotic vehicles subject to sensing constraints (limited range, limited field of view) based on the general connectivity framework in [1]; 2. Setup an experimental testbed for heterogeneous (aerial/ground) multi-robot systems based on the Cambridge RoboMaster platform [2] and Crazyflie drones [3] to test and validate the algorithms both in simulation and experiments.
 
 <br>
 <h3 class="subsection-title">Envisaged activities</h3>
 <br>
 
-1. Literature review of the related works and familiarize with the experimental setup in the team.
+1. Literature review of the related works and familiarize with the experimental setup in the team
 
-1. Take over the existing works and work on the design and analysis of a control algorithm for autonomous cluster consensus of multi-robot systems
+1. Take over the existing works and work on the design and analysis of a control algorithm for autonomous cluster consensus of heterogeneous multi-robot systems
 
-1. Implement and validate in simulation the proposed algorithms.
+1. Setup the hardware and software for a team of heterogeneous aerial/ground robots 
 
-1. Validate experimentally the scenario on a fleet of Crazyflie drones.
+1. Implement and validate in simulation the proposed algorithms
+
+1. Validate experimentally the scenario on the heterogeneous team of robots
 
 <br>
 <h3 class="subsection-title">Skills/Requirements</h3>
@@ -57,13 +59,11 @@ giscus_comments: true
 
 * High motivation and interest in the topic
 
-* Good knowledge in control theory and robot modeling
+* Good experience with robotics hardware and software (Python/C++ and ROS2)
 
-* Good experience using Matlab/Simulink
+* Knowledge in control theory and robot modeling
 
 * Basic knowledge of control and analysis of multi-agent systems is appreciated
-
-* Previous experience with Python/C++ and ROS2 is appreciated
 
 * Scientific curiosity
 
@@ -93,6 +93,10 @@ Interested candidates are requested to apply via [this form](https://team.inria.
 <br>
 
 1. Robuffo Giordano, P., Franchi, A., Secchi, C., & Bülthoff, H. H. (2013). A passivity-based decentralized strategy for generalized connectivity maintenance. The International Journal of Robotics Research, 32(3), 299-323.
+
+1. Blumenkamp, J., Shankar, A., Bettini, M., Bird, J., & Prorok, A. (2024). The cambridge robomaster: An agile multi-robot research platform. arXiv preprint arXiv:2405.02198.
+
+1. https://store.bitcraze.io/collections/platforms/products/crazyflie-2-1-plus
 
 1. Xia, W., & Cao, M. (2011). Clustering in diffusively coupled networks. Automatica, 47(11), 2395-2405.
 

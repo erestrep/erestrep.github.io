@@ -4,7 +4,7 @@ title: Coordination of Heterogeneous Multi-robot systems for Multi-objective Mis
 description: Open PhD position
 img: assets/img/phd_cluster.png
 importance: 1
-category: PhD
+category: Closed
 giscus_comments: true
 ---
 

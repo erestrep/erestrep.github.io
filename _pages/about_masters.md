@@ -1,3 +1,7 @@
+* [Francesco Levantino]() (2025)\\
+  **Institution:** University of Palermo\\
+  **Advisors:** Dr. Esteban Restrepo, Antonio Marino
+
 * [Valeria Braglia]() (2024)\\
   **Institution:** University of Modena and Reggio Emilia\\
   **Advisors:** Dr. Marco Tognon, Dr. Esteban Restrepo, Dr. Nicola De Carli

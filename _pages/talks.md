@@ -11,6 +11,11 @@ nav_order: 4
 <h3 class="talk-title">2025</h3>
 <hr>
 
+* **Open Multi-Robot Systems for Resilient Teams**\\
+    GdR Robotique TS3 & GICAT Workshop on Multi-Robot Systems\\
+    IRISA, Rennes, France\\
+    June 11th, 2025
+
 * **Towards Resilient and Autonomous Human-Multi-Robot Collaboration**\\
     École normale supérieure de Rennes, Rennes, France\\
     February 12th, 2025
