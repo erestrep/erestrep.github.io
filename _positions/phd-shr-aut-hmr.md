@@ -4,7 +4,7 @@ title: Shared autonomy for intuitive human-multi-robot collaboration
 description: Open PhD position
 img: assets/img/shared-1.png
 importance: 2
-category: PhD
+category: closed
 giscus_comments: true
 ---
 
