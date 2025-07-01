@@ -64,8 +64,8 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-published-at-ra-l-page-facing-up",
           title: 'New paper published at RA-L :page_facing_up:',
           description: "",
-          section: "News",},{id: "positions-cluster-consensus-control-for-swarms-of-robotic-vehicles",
-          title: 'Cluster-consensus control for swarms of robotic vehicles',
+          section: "News",},{id: "positions-cluster-consensus-control-for-heterogeneous-teams-of-robotic-vehicles",
+          title: 'Cluster-consensus control for heterogeneous teams of robotic vehicles',
           description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-cluster-consensus/";
