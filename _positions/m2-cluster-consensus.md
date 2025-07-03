@@ -23,9 +23,9 @@ giscus_comments: true
 
 **Hired by** the [Rainbow team](https://team.inria.fr/rainbow/) IRISA/Inria Rennes, France
 
-**Advised by:** [Esteban Restrepo](https://erestrep.github.io/), [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/prg/), and Antonio Marino
+**Advised by:** [Esteban Restrepo](https://erestrep.github.io/), [Dr. Gianluca Corsini](https://team.inria.fr/rainbow/fr/team/gianluca-corsini/), and [Antonio Marino](https://team.inria.fr/rainbow/fr/antonio-marino/)
 
-**Contact:** [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [prg@irisa.fr](mailto:prg@irisa.fr) – [antonio.marino@irisa.fr](mailto:antonio.marino@irisa.fr)
+**Contact:** [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [gianluca.corsini@irisa.fr](mailto:gianluca.corsini@irisa.fr) – [antonio.marino@irisa.fr](mailto:antonio.marino@irisa.fr)
 
 **How to apply:**  Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-int-clus-cons/). The position will remain open until a satisfactory candidate is found.
 
@@ -86,7 +86,7 @@ Financial support offered to the student: gratification de 4,35 € / h
 
 Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-int-clus-cons/).
 
-**Supervisor(s):** Dr. Esteban Restrepo, Dr. Paolo Robuffo Giordano, and Antonio Marino
+**Supervisor(s):** Dr. Esteban Restrepo, Dr. Gianluca Corsini, and Antonio Marino
 
 <br>
 <h3 class="subsection-title">References</h3>
