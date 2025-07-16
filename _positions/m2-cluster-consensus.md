@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cluster-consensus control for heterogeneous teams of robotic vehicles
+title: Cluster-consensus control of teams of robotic vehicles for dosimetry
 description: Open research internship position (stage M2)
 img: assets/img/phd_cluster.png
 importance: 3
@@ -8,7 +8,7 @@ category: Master thesis
 giscus_comments: true
 ---
 
-**Short abstract:** The goal of this Master Thesis is to setup an experimental testbed for a heterogeneous multi-robot system and to design and analyse distributed control laws to achieve autonomous formation of clusters in a group of heterogeneous mobile robots.
+**Short abstract:** The goal of this Master Thesis is to setup an experimental testbed for a heterogeneous multi-robot system and to design and analyse distributed control laws to achieve autonomous formation of clusters in a group of heterogeneous mobile robots in order to perform measurement and sensing of electromagnetic radiation (dosimetry).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -33,7 +33,7 @@ giscus_comments: true
 
 <br>
 
-**Description:** The deployment of teams of robotic vehicles has been shown to be effective for a wide range of applications based on cooperative tasks such as reconnaissance, surveillance, foraging or search and rescue. Most of the time, in such collaborative missions, the field of interest is relatively large with respect to the size of the multi-robot system. Therefore, the heterogeneous team must be divided into smaller groups (clusters), based on their heterogeneous capabilities, in order to conduct different tasks simultaneously.
+**Description:** The deployment of teams of robotic vehicles has been shown to be effective for a wide range of applications based on cooperative tasks such as reconnaissance, surveillance, foraging, search and rescue and active sensing. Most of the time, in such collaborative missions, such as dosimetry, the field of interest is relatively large with respect to the size of the multi-robot system. Therefore, the heterogeneous team must be divided into smaller groups (clusters), based on the task (the electromagnetic field to measure) or the robots capabilities (sensors, mobility), in order to perform the mission successfully.
 
 **Motivations:** Most of the current works addressing the problem of clustering for multi-agent systems are concerned with generic unconstrained agents, thus neglecting the constraints and specificity of networks of mobile robots in terms of limited sensing capabilities. Moreover, they only study the conditions for convergence of the agents to small groups, i.e. cluster consensus, rather than the autonomous formation of clusters. There are few works addressing the autonomous achievement of clusters in a network of heterogeneous mobile robots based on distributed and local interactions among the robots, none of which take also into account the sensing constraints inherent to these types of systems.
 
