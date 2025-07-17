@@ -4,7 +4,7 @@ title: Cluster-consensus control of teams of robotic vehicles for dosimetry
 description: Open research internship position (stage M2)
 img: assets/img/phd_cluster.png
 importance: 3
-category: Master thesis
+category: closed
 giscus_comments: true
 ---
 
