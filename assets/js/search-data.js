@@ -64,7 +64,21 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-published-at-ra-l-page-facing-up",
           title: 'New paper published at RA-L :page_facing_up:',
           description: "",
-          section: "News",},{id: "positions-cluster-consensus-control-of-teams-of-robotic-vehicles-for-dosimetry",
+          section: "News",},{id: "news-new-paper-published-at-automatica-page-facing-up",
+          title: 'New paper published at Automatica! :page_facing_up:',
+          description: "",
+          section: "News",},{id: "news-new-paper-published-at-ra-l-page-facing-up",
+          title: 'New paper published at RA-L! :page_facing_up:',
+          description: "",
+          section: "News",},{id: "news-new-master-thesis-positions-available-rocket",
+          title: 'New Master thesis positions available! :rocket:',
+          description: "",
+          section: "News",},{id: "positions-resilient-coordination-of-multi-robot-systems",
+          title: 'Resilient Coordination of Multi-robot Systems',
+          description: "Open research internship position (stage M2)",
+          section: "Positions",handler: () => {
+              window.location.href = "/positions/m2-biconnectivity-CBF/";
+            },},{id: "positions-cluster-consensus-control-of-teams-of-robotic-vehicles-for-dosimetry",
           title: 'Cluster-consensus control of teams of robotic vehicles for dosimetry',
           description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
