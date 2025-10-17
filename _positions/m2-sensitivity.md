@@ -4,7 +4,7 @@ title: Robust Multi-Robot Coordination -- Sensitivity-Driven Interaction Optimiz
 description: Open research internship position (stage M2)
 img: assets/img/drones_exp.png
 importance: 2
-category: Master thesis
+category: closed
 giscus_comments: true
 ---
 
