@@ -83,6 +83,11 @@ ninja.data = [{
           description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-cluster-consensus/";
+            },},{id: "positions-scalable-distributed-connectivity-estimation-for-multi-robot-systems",
+          title: 'Scalable Distributed Connectivity Estimation for Multi-robot Systems',
+          description: "Open research internship position (stage M2)",
+          section: "Positions",handler: () => {
+              window.location.href = "/positions/m2-connectivity-estimation/";
             },},{id: "positions-cooperative-multi-robot-non-prehensile-manipulation",
           title: 'Cooperative multi-robot non-prehensile manipulation',
           description: "Open research internship position (stage M2)",
