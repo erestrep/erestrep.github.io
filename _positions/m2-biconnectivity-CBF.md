@@ -2,7 +2,7 @@
 layout: page
 title: Resilient Coordination of Multi-robot Systems
 description: Open research internship position (stage M2)
-img: assets/img/M2stage-connect.png
+img: assets/img/connect.png
 importance: 1
 category: Master thesis
 giscus_comments: true
@@ -13,11 +13,11 @@ giscus_comments: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/M2stage-connect.png" title="cluster image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/connect.png" title="cluster image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Snapshot of an experiment of drone formation using the generalized connectivity model in [1].
+    Snapshot of an simulation of drone coordination using the generalized connectivity model in [1].
 </div>
 
 <hr>
