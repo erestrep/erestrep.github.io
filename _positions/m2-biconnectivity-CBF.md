@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resilient Coordination of Multi-robot Systems: Enabling Long-Term Autonomy
+title: Resilient Coordination of Multi-robot Systems -- Enabling Long-Term Autonomy
 description: Open research internship position (stage M2)
 img: assets/img/connect.png
 importance: 2
