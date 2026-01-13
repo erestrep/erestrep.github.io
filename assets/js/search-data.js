@@ -73,9 +73,14 @@ ninja.data = [{
           section: "News",},{id: "news-new-master-thesis-positions-available-rocket",
           title: 'New Master thesis positions available! :rocket:',
           description: "",
-          section: "News",},{id: "positions-resilient-coordination-of-multi-robot-systems",
-          title: 'Resilient Coordination of Multi-robot Systems',
+          section: "News",},{id: "positions-rl-driven-energy-tanks-for-aerial-physical-interaction",
+          title: 'RL-driven Energy Tanks for Aerial Physical Interaction',
           description: "Open research internship position (stage M2)",
+          section: "Positions",handler: () => {
+              window.location.href = "/positions/m2-RL-tanks/";
+            },},{id: "positions-",
+          title: '',
+          description: "",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-biconnectivity-CBF/";
             },},{id: "positions-cluster-consensus-control-of-teams-of-robotic-vehicles-for-dosimetry",
@@ -83,8 +88,8 @@ ninja.data = [{
           description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-cluster-consensus/";
-            },},{id: "positions-scalable-distributed-connectivity-estimation-for-multi-robot-systems",
-          title: 'Scalable Distributed Connectivity Estimation for Multi-robot Systems',
+            },},{id: "positions-robust-distributed-connectivity-estimation-for-human-multi-robot-teleoperation",
+          title: 'Robust Distributed Connectivity Estimation for Human-Multi-Robot Teleoperation',
           description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-connectivity-estimation/";
