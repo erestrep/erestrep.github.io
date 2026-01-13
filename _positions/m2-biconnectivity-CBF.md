@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Resilient Coordination of Multi-robot Systems
+title: Resilient Coordination of Multi-robot Systems: Enabling Long-Term Autonomy
 description: Open research internship position (stage M2)
 img: assets/img/connect.png
-importance: 1
+importance: 2
 category: Master thesis
 giscus_comments: true
 ---
 
-**Short abstract:** The objective of this Master’s thesis is to develop a **distributed strategy** for the coordination of a multi-robot system subject to **multiple constraints** (e.g. collision avoidance, connectivity and visibility maintenance) and performing **multiple objectives** (etc. coverage missions, clustering), while being **resilient** to robot failure or mission and environmental changes.
+**Short abstract:** This Master's Thesis will focus on proposing a **distributed Control Barrier Function (CBF)** strategy to enable persistent autonomy in **Open Multi-Robot Systems**. The framework guarantees safety and biconnectivity during dynamic agent addition and removal, facilitating long-term missions that outlast individual battery lives.
 
 
 <div class="row">
@@ -34,14 +34,25 @@ giscus_comments: true
 
 <br>
 
-**Description and motivation:** The deployment of **robotic fleets** has proven effective for various cooperative tasks such as reconnaissance, surveillance, load transportation, and imaging. While a fixed number of agents can perform short-term tasks like formation tracking or area coverage, this approach becomes limiting in practical, **long-term missions**. Such missions often exceed the robots’ battery life, requiring agents to temporarily leave for recharging and rejoin later. Additionally, in dynamic or adversarial environments, robot failures or attacks are inevitable, and new robots may need to join as tasks or environments evolve. Hence, agent addition and removal are inherent to realistic multi-robot operations. These additions and removals, however, demand **resilient strategies** capable of managing agent changes while ensuring the satisfaction of **inter-agent constraints** and overall mission objectives.
+**Description and motivation:** Most multi-robot research assumes a "closed" system: a fixed team of agents starts and finishes a task together. However, real-world applications—such as continuous environmental monitoring, perimeter surveillance, or smart logistics—require **Long-Term Autonomy**. In these missions, the task duration far exceeds the battery life of any single robot. To bridge this gap, we must move toward **Open Multi-Robot Systems**. These are dynamic ecosystems where the population is fluid: agents must leave to recharge or undergo maintenance, while new agents enter to replace them or scale up the operation. The "swapping" of robots must be seamless. The departure of an agent (or its sudden failure) creates a risk of fracturing the communication network or violating coverage constraints. Conversely, the addition of a new agent introduces integration challenges in collision avoidance and formation merging.
 
-To address these challenges, this master thesis builds upon a **generalized biconnectivity framework** [1,2] where the interconnection between robots is defined as a product of weights that encode factors like **proximity-based interactions** (distance-dependent), **sensing limitations** (field-of-view constraints), **hard constraints** (collision avoidance, connectivity maintenance) and **soft constraints** (formation control, cooperative behavior), and that is resilient to the removal or addition of agents due to, e.g., failure, battery discharge, changing mission specifications or environmental conditions. Then, relying on the **distributed Control Barrier Function (CBF) framework** [3]​, this thesis will study how to provide an optimal controller for the coordination of a multi-robot system that satisfies the system’s constraints and that is resilient to a change in the number of robots.
+This thesis proposes a robust, distributed control framework that treats the robot population as a time-varying variable. It builds upon two key pillars:
+
+1. Generalized Biconnectivity [1-2]: A graph-theoretic framework ensuring the network remains structurally intact (robust to single-point failures) even as nodes are added or removed. It encodes operational constraints (sensing, communication) into the graph weights.
+1. Control Barrier Functions (CBFs) [3]: A safety-critical control method that strictly enforces constraints. We will use CBFs to create a "safe harbor" for agents entering or leaving the system, ensuring that topological changes never trigger collisions or disconnect the fleet.
 
 
-**General Objectives:** The goal of this Master Thesis is to propose a distributed strategy based on the results of [1,2,3] in order to achieve **resilient coordination in a team of multiple robots subject to multiple constraints and objectives**. The proposed algorithms will be **validated through simulations and experiments** using a team of mobile robots (ground robots and mini-drones).
+**General Objectives:** The goal is to develop a distributed strategy for resilient coordination in Open Multi-Robot Systems, enabling persistent operation despite constant changes in the team composition.
 
-By integrating a **resilient generalized biconnectivity strategy with the CBF framework**, this thesis will contribute to the development of **next-generation resilient multi-robot systems** capable of operating in real-world, dynamic environments.
+The student will:
+
+* Formulate a **distributed Control Barrier Function (CBF)** controller that adapts to a time-varying number of agents, guaranteeing safety during "Plug-and-Play" maneuvers.
+
+* Develop a protocol based on **Generalized Biconnectivity** that allows the swarm to autonomously reconfigure its topology when agents join or leave, preventing network fragmentation.
+
+* Design a **"persistent mission"** scenario (e.g., area coverage or patrolling) where robots cycle between active duty and a charging station.
+
+* Validate the approach through **extensive simulation and hardware experiments** using a heterogeneous team (ground robots and mini-drones), demonstrating that the mission continues uninterrupted while the hardware is swapped out.
 
 <br>
 <h3 class="subsection-title">Envisaged activities</h3>

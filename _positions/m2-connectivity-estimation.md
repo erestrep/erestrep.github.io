@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Scalable Distributed Connectivity Estimation for Multi-robot Systems
+title: Robust Distributed Connectivity Estimation for Human-Multi-Robot Teleoperation
 description: Open research internship position (stage M2)
 img: assets/img/M2stage-connect.png
-importance: 2
+importance: 3
 category: Master thesis
 giscus_comments: true
 ---
 
-**Short abstract:** The objective of this Master’s thesis is to develop a **scalable and distributed algorithm** for connectivity estimation in a multi-robot system subject to **multiple constraints** (e.g. collision avoidance, connectivity and visibility maintenance) via **distributed diffusion models**.
+**Short abstract:** This Master's Thesis will investigate a novel distributed algorithm for **estimating the algebraic connectivity** of robotic swarms, leveraging **diffusion models** to ensure numerical stability and scalability. The approach will be validated on real hardware in a **human-multi-robot teleoperation scenario**, ensuring network cohesion under dynamic human guidance.
 
 
 <div class="row">
@@ -34,12 +34,20 @@ giscus_comments: true
 
 <br>
 
-**Description and motivation:** Ensuring robust connectivity is a foundational requirement for the successful operation of cooperative multi-agent systems [1][2], enabling the coordination and information flow necessary for complex tasks. This concept extends far beyond simple communication, forming the basis of a "generalized connectivity" framework [3] where maintaining specific inter-agent links is used to encode a wide array of operational constraints, from collision avoidance to formation keeping and task satisfaction. In this paradigm, monitoring the graph's algebraic connectivity becomes a direct proxy for mission-wide success. However, estimating this global network property in a distributed fashion, a necessity for any scalable system, remains a significant challenge. Current methods are often impractical for dynamic, large-scale systems. Many centralized or flooding-based approaches [4] are not scalable, as they implicitly require agents to reconstruct the full adjacency matrix, a non-viable solution in a distributed setting. On the other hand, existing distributed iterative and consensus-based estimators [5][6], based on a distributed version of the power iteration, suffer from a critical tuning problem: their convergence rates and stability parameters are highly sensitive to the network's topology, requiring complex re-tuning every time the graph changes. 
+**Description and motivation:** In the field of Cooperative Multi-Agent Systems, maintaining network integrity is not merely a communication issue—it is a fundamental control constraint. Whether for formation control, collision avoidance, or distributed sensing, a robot swarm must remain algebraically connected to function as a cohesive unit. This is formalized through the concept of "Generalized Connectivity" [1-3], where the graph’s algebraic connectivity (the Fiedler eigenvalue) serves as a real-time proxy for the system’s stability and operational health.
 
-This Master Thesis will address this critical gap by investigating a novel adaptive estimation algorithm that is both fully distributed and robust to the very topological changes it seeks to monitor. As a starting point, this work draws inspiration from power iteration methods, which refine a random signal to predict connectivity, and proposes to design a novel diffusion graph model that achieves this purpose with increased performance regardless of topology. A key investigation will be to demonstrate that the sacrifice in communication load implied by such a diffusion model yields quantifiable improvements in estimation accuracy and robustness. The algorithm's performance, scalability, and robustness to topological changes will be rigorously validated through theoretical analysis and extensive simulation.
+While computing connectivity centrally is trivial, estimating it in a fully distributed manner (where robots only talk to neighbors) remains an open problem for dynamic systems. Current state-of-the-art methods [5][6] rely on distributed power iteration techniques that are numerically fragile. They suffer from slow convergence and require complex parameter retuning whenever the network topology changes—making them ill-suited for real-world deployment.
+
+This challenge is amplified in Human-Multi-Robot Interaction (HMRI). When a human operator teleoperates a fleet of robots (e.g., using a joystick to guide a swarm through a disaster zone), the human's commands can result in rapid, unpredictable changes to the swarm's formation. The system requires a fast, robust estimator to alert the controller before the network fractures, ensuring the human can guide the swarm aggressively without breaking communication links.
+
+This Master's Thesis will develop a novel, adaptive estimation algorithm based on **diffusion graph models**. Unlike standard consensus approaches, this method will aim to be robust to topological switching, allowing the swarm to self-monitor its connectivity in real-time without constant retuning.
 
 
-**General Objectives:** The goal of this Master Thesis is to propose a **distributed algorithm to compute the connectivity of a group of robots** which overcome the limitations of current state of art methods: scalability, numerical stability and convergence speed. By leveraging **distributed diffusion models** iterations [4][5][6] this thesis will stand on cutting-edge methodologies and will contribute to the real deployment of multi-robot fleets. **The approach developed will be extensively tested in simulation and on a team of mini aerial drones**.
+**General Objectives:** The main goal is to design, analyze, and validate a distributed algorithm that surpasses current methods in scalability, numerical stability, and convergence speed. The student will:
+
+* Develop a distributed connectivity estimator leveraging diffusion models and power iteration that is mathematically robust to dynamic graph topology changes.
+* Integrate the algorithm into a human-multi-robot teleoperation framework. The estimator will act as a safety layer, providing real-time feedback to ensure the swarm maintains cohesion while following human velocity commands.
+* Test the complete system first in simulation (e.g., ROS2/Gazebo) and subsequently on real robotic hardware, demonstrating the system's ability to prevent network fragmentation during complex maneuvers.
 
 <br>
 <h3 class="subsection-title">Envisaged activities</h3>
