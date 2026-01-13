@@ -78,9 +78,9 @@ ninja.data = [{
           description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-RL-tanks/";
-            },},{id: "positions-",
-          title: '',
-          description: "",
+            },},{id: "positions-resilient-coordination-of-multi-robot-systems-enabling-long-term-autonomy",
+          title: 'Resilient Coordination of Multi-robot Systems -- Enabling Long-Term Autonomy',
+          description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
               window.location.href = "/positions/m2-biconnectivity-CBF/";
             },},{id: "positions-cluster-consensus-control-of-teams-of-robotic-vehicles-for-dosimetry",
