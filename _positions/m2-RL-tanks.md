@@ -23,9 +23,9 @@ giscus_comments: true
 
 **Hired by** the [Rainbow team](https://team.inria.fr/rainbow/) IRISA/Inria Rennes, France
 
-**Advised by:** [Esteban Restrepo](https://erestrep.github.io/), [Cristian Secchi](https://www.arscontrol.unimore.it/cristian-secchi/), [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/prg/)
+**Advised by:** [Esteban Restrepo](https://erestrep.github.io/), [Cristian Secchi](https://www.arscontrol.unimore.it/cristian-secchi/), [Marco Tognon](https://marco-tognon-robotics.com/), [Paolo Robuffo Giordano](https://team.inria.fr/rainbow/fr/team/prg/)
 
-**Contact:** [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [csecchi@unimore.it](mailto:csecchi@unimore.it) – [prg@irisa.fr](mailto:prg@irisa.fr)
+**Contact:** [esteban.restrepo@irisa.fr](mailto:esteban.restrepo@irisa.fr) – [csecchi@unimore.it](mailto:csecchi@unimore.it) – [marco.tognon@inria.fr](mailto:marco.tognon@inria.fr)  – [prg@irisa.fr](mailto:prg@irisa.fr)
 
 **How to apply:**  Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-rl-energy-tanks/). The position will remain open until a satisfactory candidate is found.
 
@@ -99,7 +99,7 @@ Financial support offered to the student: gratification de 4,35 € / h
 
 Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-rl-energy-tanks/).
 
-**Supervisor(s):** Dr. Esteban Restrepo, Dr. Cristian Secchi, Dr. Paolo Robuffo Giordano
+**Supervisor(s):** Dr. Esteban Restrepo, Dr. Cristian Secchi, Dr. Marco Tognon, Dr. Paolo Robuffo Giordano
 
 <br>
 <h3 class="subsection-title">References</h3>
