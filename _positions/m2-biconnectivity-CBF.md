@@ -4,7 +4,7 @@ title: Resilient Coordination of Multi-robot Systems -- Enabling Long-Term Auton
 description: Open research internship position (stage M2)
 img: assets/img/connect.png
 importance: 2
-category: Master thesis
+category: Closed
 giscus_comments: true
 ---
 

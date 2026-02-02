@@ -4,7 +4,7 @@ title: Robust Distributed Connectivity Estimation for Human-Multi-Robot Teleoper
 description: Open research internship position (stage M2)
 img: assets/img/M2stage-connect.png
 importance: 3
-category: Master thesis
+category: Closed
 giscus_comments: true
 ---
 
