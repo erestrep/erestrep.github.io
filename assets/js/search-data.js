@@ -58,10 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/_pages/dropdown.html";
           },
-        },{id: "news-new-phd-and-master-thesis-positions-available-rocket",
-          title: 'New PhD and Master thesis positions available! :rocket:',
-          description: "",
-          section: "News",},{id: "news-new-paper-published-at-ra-l-page-facing-up",
+        },{id: "news-new-paper-published-at-ra-l-page-facing-up",
           title: 'New paper published at RA-L :page_facing_up:',
           description: "",
           section: "News",},{id: "news-new-paper-published-at-automatica-page-facing-up",
@@ -69,9 +66,6 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-new-paper-published-at-ra-l-page-facing-up",
           title: 'New paper published at RA-L! :page_facing_up:',
-          description: "",
-          section: "News",},{id: "news-new-master-thesis-positions-available-rocket",
-          title: 'New Master thesis positions available! :rocket:',
           description: "",
           section: "News",},{id: "positions-rl-driven-energy-tanks-for-aerial-physical-interaction",
           title: 'RL-driven Energy Tanks for Aerial Physical Interaction',
