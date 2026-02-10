@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-16 11:26:00-0400
+date: 2025-09-15 11:26:00-0400
 inline: true
 related_posts: false
 ---
 
-[New Master thesis positions available!](/positions) :rocket: 
+[New paper published at Automatica!](/publications) :page_facing_up: 

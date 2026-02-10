@@ -4,7 +4,7 @@ title: RL-driven Energy Tanks for Aerial Physical Interaction
 description: Open research internship position (stage M2)
 img: assets/img/pushing-drone.png
 importance: 1
-category: Master thesis
+category: closed
 giscus_comments: true
 ---
 
