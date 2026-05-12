@@ -1,3 +1,7 @@
+* [Xavier Leonhart]() (2026)\\
+  **Institution:** University of Strasbourg\\
+  **Co-advisors:** Dr. Antonio Marino
+
 * [Thomas Zamprogno]() (2025)\\
   **Institution:** University of Padua\\
   **Co-advisors:** Dr. Antonio Marino
