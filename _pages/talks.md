@@ -8,6 +8,15 @@ nav_order: 4
 ---
 
 <br>
+<h3 class="talk-title">2026</h3>
+<hr>
+
+* **Resilient Control of Open	Teams of Heterogeneous Robots**\\
+    COPERNIC Team, GIPSA-Lab\\
+    Grenoble, France\\
+    April 23rd, 2026
+
+<br>
 <h3 class="talk-title">2025</h3>
 <hr>
 
