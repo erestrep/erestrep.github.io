@@ -2,22 +2,19 @@
 layout: page
 title: Resilient Coordination of Multi-robot Systems -- Enabling Long-Term Autonomy
 description: Open research internship position (stage M2)
-img: assets/img/connect.png
-importance: 2
-category: Closed
+img: ms_cbf-resistance.jpeg
+importance: 1
+category: Master thesis
 giscus_comments: true
 ---
 
-**Short abstract:** This Master's Thesis will focus on proposing a **distributed Control Barrier Function (CBF)** strategy to enable persistent autonomy in **Open Multi-Robot Systems**. The framework guarantees safety and biconnectivity during dynamic agent addition and removal, facilitating long-term missions that outlast individual battery lives.
+**Short abstract:** Multi-robot teams sustaining long-duration missions must tolerate the loss of individual agents to depleted batteries or faults without the communication network splitting apart. This thesis develops a distributed coordination framework to maintain redundant connectivity that is resilient to agents’ loss to enable long term autonomy. The approach will be validated in simulation and on a real robot fleet in a persistent-mission scenario where agents cycle to a charging station.
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/connect.png" title="cluster image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ms_cbf-resistance.jpeg" title="resilient" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Snapshot of an simulation of drone coordination using the generalized connectivity model in [1].
 </div>
 
 <hr>
@@ -34,51 +31,46 @@ giscus_comments: true
 
 <br>
 
-**Description and motivation:** Most multi-robot research assumes a "closed" system: a fixed team of agents starts and finishes a task together. However, real-world applications—such as continuous environmental monitoring, perimeter surveillance, or smart logistics—require **Long-Term Autonomy**. In these missions, the task duration far exceeds the battery life of any single robot. To bridge this gap, we must move toward **Open Multi-Robot Systems**. These are dynamic ecosystems where the population is fluid: agents must leave to recharge or undergo maintenance, while new agents enter to replace them or scale up the operation. The "swapping" of robots must be seamless. The departure of an agent (or its sudden failure) creates a risk of fracturing the communication network or violating coverage constraints. Conversely, the addition of a new agent introduces integration challenges in collision avoidance and formation merging.
+**Description and motivation:** A multi-robot team relies on communication to function as a team. Robots exchange sensor data, agree on task allocation, hand off responsibilities when one of them withdraws, and remain reachable by a supervisor. Distributed coordination algorithms such as consensus, distributed estimation, task assignment, assume an information path exists between any two agents. When the network splits, that assumption fails as well as the guarantees these algorithms provide. Connectivity is thus a fundamental requirement for coordinated behaviour.
 
-This thesis proposes a robust, distributed control framework that treats the robot population as a time-varying variable. It builds upon two key pillars:
+Missions such as environmental monitoring, perimeter surveillance and warehouse logistics run for hours or days, far beyond the endurance of any single platform. A team sustaining such a mission loses and regains members continuously, whether by scheduled recharging or by unplanned failure. In those scenarios, standard connectivity maintenance falls short since it does not certify that the team would stay connected after losing a robot. Long-term autonomy requires redundant connectivity that is resilient to the loss of any single agent.
 
-1. Generalized Biconnectivity [1-2]: A graph-theoretic framework ensuring the network remains structurally intact (robust to single-point failures) even as nodes are added or removed. It encodes operational constraints (sensing, communication) into the graph weights.
-1. Control Barrier Functions (CBFs) [3]: A safety-critical control method that strictly enforces constraints. We will use CBFs to create a "safe harbor" for agents entering or leaving the system, ensuring that topological changes never trigger collisions or disconnect the fleet.
+This thesis will aim to propose a distributed controller to achieve redundant connectivity guarantees using resistance-based graph measures (effective resistance and biharmonic distance [1,2]), which quantify how many independent paths connect two robots. This will be based on two previous results: generalized connectivity maintenance, in which each communication link is modeled by a smooth state-dependent weight encoding range, line-of-sight and field-of-view constraints [3]; and Control Barrier Functions (CBF), which enforce the resulting constraints and compose them with the mission task in a single quadratic program [4–5].
 
 
-**General Objectives:** The goal is to develop a distributed strategy for resilient coordination in Open Multi-Robot Systems, enabling persistent operation despite constant changes in the team composition.
+**General Objectives:** 
 
 The student will:
 
-* Formulate a **distributed Control Barrier Function (CBF)** controller that adapts to a time-varying number of agents, guaranteeing safety during "Plug-and-Play" maneuvers.
+* Formulate robust-connectivity constraints from resistance-based graph measures as control barrier functions, starting from effective resistance and extending to the biharmonic distance.
 
-* Develop a protocol based on **Generalized Biconnectivity** that allows the swarm to autonomously reconfigure its topology when agents join or leave, preventing network fragmentation.
+* Integrate the resulting constraints into a distributed CBF-QP controller alongside a nominal mission task (e.g. area coverage or patrolling).
 
-* Design a **"persistent mission"** scenario (e.g., area coverage or patrolling) where robots cycle between active duty and a charging station.
+* Design and validate a persistent-mission scenario in which robots cycle between active duty and a charging station, demonstrating that the departure of any agent leaves the network connected.
 
-* Validate the approach through **extensive simulation and hardware experiments** using a heterogeneous team (ground robots and mini-drones), demonstrating that the mission continues uninterrupted while the hardware is swapped out.
+* If time allows: extend the framework to explicit join and leave manoeuvres, treating the team population as time-varying and certifying safety through the transition itself.
 
 <br>
 <h3 class="subsection-title">Envisaged activities</h3>
 <br>
 
-1. Literature review of the related works and familiarize with the experimental setup in the team.
+1. Literature review and familiarization with the team’s experimental platform.
 
-2. Take over the existing works and work on the CBF-based distributed and resilient coordination strategy for a multi-robot system.
+1. Build on existing work on distributed CBFs and generalized connectivity maintenance; extend the resistance-based formulation.
 
-3. Implement and validate in simulation the proposed algorithms.
+1. Implement and validate the algorithms in simulation.
 
-4. Validate experimentally the scenario on a team of mobile robots.
+1. Experimental validation on a heterogeneous team of mobile robots
 
 <br>
 <h3 class="subsection-title">Skills/Requirements</h3>
 <br>
 
-* High motivation and interest in the topic
+* High motivation, scientific curiosity, and genuine interest in graph theory applied to control.
 
-* Good knowledge in control theory and robot modeling
+* Good knowledge of control theory and robot modeling; familiarity with algebraic graph theory and multi-agent systems is a plus.
 
-* Basic knowledge of control and analysis of multi-agent systems
-
-* Previous experience with Python/C++ and ROS2
-
-* Scientific curiosity
+* Previous experience with Python/C++; experience with ROS2 is desirable.
 
 <br>
 <hr>
@@ -87,11 +79,13 @@ The student will:
 <h3 class="subsection-title">Conditions</h3>
 <br>
 
+Research Internship (M2)
+
 Expected duration of the internship: **5-6 months**
 
 The work will be carried in English at the Centre Inria de l’Université de Rennes research center in Rennes, France.
 
-Financial support offered to the student: gratification de 4,35 € / h
+Financial support offered to the student: 4,50 € / h
 
 <br>
 <h3 class="subsection-title">How to apply</h3>
@@ -99,19 +93,21 @@ Financial support offered to the student: gratification de 4,35 € / h
 
 Interested candidates are requested to apply via [this form](https://team.inria.fr/rainbow/appl-form-res-coord/).
 
+The position will remain open until a satisfactory candidate is found. In case of positive feedback, you will be contacted. If not positive, you won’t hear back.
+
 **Supervisor(s):** Dr. Esteban Restrepo, Dr. Nicola De Carli
 
 <br>
 <h3 class="subsection-title">References</h3>
 <br>
 
-1. Restrepo, E., & Robuffo Giordano, P. (2024, December). A Distributed Strategy for Generalized Biconnectivity Maintenance in Open Multi-robot Systems. In 2024 IEEE 63rd Conference on Decision and Control (CDC) (pp. 3043-3050). IEEE.
+1. Ghosh, A., Boyd, S., & Saberi, A. (2008). Minimizing effective resistance of a graph. SIAM review, 50(1), 37-66.
 
-2. Restrepo, E., & Robuffo Giordano, P. (2023). Distributed biconnecitvity achievement and preservation in multi-agent systems. IEEE Control Systems Letters, 7, 3289-3294.
+2. Black, M., Lin, L., Nayyeri, A., & Wong, W. K. (2024). Biharmonic distance of graphs and its higher-order variants: Theoretical properties with applications to centrality and clustering. arXiv preprint arXiv:2406.07574.
 
-3. De Carli, N., Salaris, P., & Giordano, P. R. (2024, May). Distributed control barrier functions for global connectivity maintenance. In 2024 IEEE International Conference on Robotics and Automation (ICRA) (pp. 12048-12054). IEEE.
+3. Robuffo Giordano, P., Franchi, A., Secchi, C., & Bülthoff, H. H. (2013). A passivity-based decentralized strategy for generalized connectivity maintenance. The International Journal of Robotics Research, 32(3), 299-323.
 
-4. P. Robuffo Giordano, Q. Delamare, A. Franchi. Trajectory Generation for Minimum Closed-Loop State Sensitivity. In IEEE Int. Conf. on Robotics and Automation, ICRA’18, Pages 286-293, Brisbane, Australia, May 2018
+4. De Carli, N., Salaris, P., & Giordano, P. R. (2024, May). Distributed control barrier functions for global connectivity maintenance. In 2024 IEEE International Conference on Robotics and Automation (ICRA) (pp. 12048-12054). IEEE.
 
 5. Ames, A. D., Coogan, S., Egerstedt, M., Notomista, G., Sreenath, K., & Tabuada, P. (2019, June). Control barrier functions: Theory and applications. In 2019 18th European control conference (ECC) (pp. 3420-3431). IEEE.
 
