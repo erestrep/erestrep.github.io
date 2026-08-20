@@ -67,7 +67,12 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-published-at-ra-l-page-facing-up",
           title: 'New paper published at RA-L! :page_facing_up:',
           description: "",
-          section: "News",},{id: "positions-rl-driven-energy-tanks-for-aerial-physical-interaction",
+          section: "News",},{id: "positions-",
+          title: '',
+          description: "",
+          section: "Positions",handler: () => {
+              window.location.href = "/positions/es-zenoh/";
+            },},{id: "positions-rl-driven-energy-tanks-for-aerial-physical-interaction",
           title: 'RL-driven Energy Tanks for Aerial Physical Interaction',
           description: "Open research internship position (stage M2)",
           section: "Positions",handler: () => {
