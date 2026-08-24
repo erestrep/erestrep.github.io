@@ -4,7 +4,7 @@ title: Plateforme expérimentale multi-robots hétérogènes : communication dé
 description: Stage de fin d’études, parcours ingénieur (Bac+5)
 img: es_zenoh.jpeg
 importance: 2
-category: Internship
+category: Master thesis
 giscus_comments: true
 ---
 

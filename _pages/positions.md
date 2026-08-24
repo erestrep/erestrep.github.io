@@ -5,7 +5,7 @@ permalink: /positions/
 description: Open research positions in the Rainbow team
 nav: true
 nav_order: 6
-display_categories: [PhD, Master thesis, Internship]
+display_categories: [PhD, Master thesis]
 horizontal: false
 ---
 
